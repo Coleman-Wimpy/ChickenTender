@@ -1,6 +1,6 @@
-import { Coords } from "./Coords"
+import * as Coords from "./Coords"
 
 export type LocationDetails = {
-    coords: Coords | null,
+    coords: Coords.Coords | null,
     locationString: string
 }
